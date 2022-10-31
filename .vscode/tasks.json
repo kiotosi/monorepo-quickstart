@@ -1,0 +1,53 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "type": "npm",
+            "script": "build",
+            "group": "build",
+            "problemMatcher": [],
+            "icon": {
+                "color": "terminal.ansiGreen",
+                "id": "package"
+            },
+            "label": "Build project",
+            "detail": "turbo build"
+        },
+        {
+            "type": "npm",
+            "script": "dev",
+            "problemMatcher": [],
+            "icon": {
+                "color": "terminal.ansiYellow",
+                "id": "code"
+            },
+            "label": "Enter development mode",
+            "detail": "turbo dev"
+        },
+        {
+            "type": "npm",
+            "script": "lint",
+            "problemMatcher": [
+                "$eslint-compact"
+            ],
+            "icon": {
+                "color": "terminal.ansiCyan",
+                "id": "alert"
+            },
+            "label": "Lint project",
+            "detail": "Fix common problems with ESLint"
+        },
+        {
+            "type": "npm",
+            "script": "test",
+            "group": "test",
+            "problemMatcher": [],
+            "icon": {
+                "color": "terminal.ansiMagenta",
+                "id": "list-selection"
+            },
+            "label": "Test project",
+            "detail": "Run test in all apps and packages for current project"
+        }
+    ]
+}

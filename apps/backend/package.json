@@ -9,7 +9,7 @@
         "test": "jest __test__ --passWithNoTests",
         "build": "tsup server.ts --format cjs -d dist --clean",
         "dev": "nodemon server.ts",
-        "lint": "eslint -c .eslintrc.cjs --ext .ts ."
+        "lint": "eslint --fix -c .eslintrc.cjs --ext .ts ."
     },
     "keywords": [],
     "author": "",

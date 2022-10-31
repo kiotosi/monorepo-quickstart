@@ -7,7 +7,7 @@
         "dev": "vite --host",
         "test": "jest __test__ --passWithNoTests",
         "build": "vue-tsc && vite build",
-        "lint": "eslint -c .eslintrc.cjs --ext .ts,.vue ."
+        "lint": "eslint --fix -c .eslintrc.cjs --ext .ts,.vue ."
     },
     "dependencies": {
         "vue": "^3.2.41"
