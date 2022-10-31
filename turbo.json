@@ -7,10 +7,7 @@
             "cache": true
         },
         "build": {
-            "outputs": [
-                "apps/frontend/dist/**",
-                "apps/backend/dist/**"
-            ],
+            "outputs": ["apps/frontend/dist/**", "apps/backend/dist/**"],
             "cache": true
         },
         "test": {
@@ -22,4 +19,4 @@
             "outputs": []
         }
     }
-  }
+}
