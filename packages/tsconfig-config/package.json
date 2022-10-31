@@ -1,0 +1,12 @@
+{
+    "name": "@tsconfig/project",
+    "version": "1.0.0",
+    "description": "Typescript configurations for project",
+    "keywords": [
+        "typscript",
+        "project",
+        "tsconfig"
+    ],
+    "author": "Daniil Shilo <crackidocky@gmail.com>",
+    "license": "MIT"
+}

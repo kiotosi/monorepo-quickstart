@@ -1,0 +1,38 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/server.js",
+    "scripts": {
+        "env:dev": "cp env/dev.env .env",
+        "env:prod": "cp env/prod.env .env",
+        "test": "jest __test__ --passWithNoTests",
+        "build": "tsup server.ts --format cjs -d dist --clean",
+        "dev": "nodemon server.ts",
+        "lint": "eslint -c .eslintrc.cjs --ext .ts ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "joi": "^17.6.4"
+    },
+    "devDependencies": {
+        "@tsconfig/project": "*",
+        "@types/cors": "^2.8.12",
+        "@types/express": "^4.17.14",
+        "@types/jest": "^29.2.0",
+        "@types/node": "^18.11.8",
+        "dotenv": "^16.0.3",
+        "eslint": "^8.26.0",
+        "eslint-config-project": "*",
+        "jest": "^29.2.2",
+        "nodemon": "^2.0.20",
+        "supertest": "^6.3.1",
+        "ts-node": "^10.9.1",
+        "tsup": "^6.3.0",
+        "typescript": "^4.6.4"
+    }
+}

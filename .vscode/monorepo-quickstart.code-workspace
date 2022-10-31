@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "path": "../",
+      "name": "🐣 Root"
+    },
+    {
+      "path": "../apps/frontend",
+      "name": "❤️ Frontend"
+    },
+    {
+      "path": "../apps/backend",
+      "name": "🛤 Backend"
+    },
+    {
+      "path": "../packages/tsconfig-config",
+      "name": "⚙️ Typescript configuration"
+    },
+    {
+      "path": "../packages/eslint-config",
+      "name": "⚙️ ESLint configuration",
+    },
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/.gitkeep": true
+    },
+    "search.useIgnoreFiles": true
+  }
+}
